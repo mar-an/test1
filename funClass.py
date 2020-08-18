@@ -1,8 +1,12 @@
 class function:
-    def kwadrat(x,y):
-    for i in x:
-        for j in y:
-            if j == i:
-                print(j)
-            #else:
-                #print("brak powiązania dla" +str(j))
+    def __init__(self, x, y):
+        self.x=[]
+        self.y=[]
+
+    def kwadrat(self):
+        for i in self.x:
+            for j in self.y:
+                if j == i:
+                    print(j)
+                else:
+                    print("brak powiązania dla" +str(j))
