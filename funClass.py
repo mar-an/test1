@@ -1,5 +1,5 @@
 class function:
-    #def kwadrat(x,y):
+    def kwadrat(x,y):
     for i in x:
         for j in y:
             if j == i:
