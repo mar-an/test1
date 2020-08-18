@@ -8,8 +8,8 @@ class function:
             for j in self.y:
                 if j == i:
                     print(j)
-                #else:
-                    #print("brak powiązania dla" +str(j))
+#               #else:
+#               #    print("brak powiązania dla" +str(j))
                 
-    def showme(self):
-        print ("jestem w showme")
+    def showme(self): 
+        print("jestem w showme")
