@@ -1,14 +1,15 @@
-class functions:
+class function:
     def __init__(self, x, y):
-        x=[]
-        y=[]
+        self.x=x
+        self.y=y
 
-    def kwadrat(self, x, y):
-        functions.x = x
-        functions.y = y
-        for i in x:
-            for j in y:
+    def kwadrat(self):
+        for i in self.x:
+            for j in self.y:
                 if j == i:
                     print(j)
-                else:
-                    print("brak powiązania dla" +str(j))
+                #else:
+                    #print("brak powiązania dla" +str(j))
+                
+    def showme(self):
+        print ("jestem w showme")
