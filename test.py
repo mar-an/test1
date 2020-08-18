@@ -6,4 +6,3 @@ def kwadrat(x):
     for i in x:
         print(i*i)
 kwadrat(tab1)    
-# %%
