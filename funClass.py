@@ -23,7 +23,7 @@ class function(object):
     def dothis(self):
         self.randomVal = random.randint(1,25)
 
-#function try chane val to int, if can't change except work with end func
+#function try change val to int, if can't change except work with end func
 
     def set_val(self, val):
         try:

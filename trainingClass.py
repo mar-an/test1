@@ -1,6 +1,6 @@
+# init which do preperation work like check if file is correct format like CSV or XML
 class MyNum(object):
 
-# init which do preperation work like check if file is correct format like CSV or XML
     def __init__(self, value):
         try:
             value = int(value)
