@@ -11,7 +11,7 @@ class Animal(object):
 
 class Dog(Animal):
     def fetch(self, thing):
-        print("{0} goes after the %s!".format% (self.name, thing))
+        print("{0} goes after the %s!".format(self.name, thing))
 
     def show_affection(self):
         print('{0} wags tail'.format(self.name))
@@ -24,3 +24,5 @@ class Cat(Animal):
 
     def show_affection(self):
         print('{0} purrs'.format(self.name))
+
+print (d.mro())
