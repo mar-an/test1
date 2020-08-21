@@ -1,5 +1,5 @@
 import abc
-from datetime import datetime
+import datetime
 
 class WriteFile(object):
     """Abstract class
