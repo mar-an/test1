@@ -1,4 +1,0 @@
-klucz2!!=wartosc2
-klucz1!!=wartosc1
-klucz3!=wartosc3
-klucz3=wartosc3
