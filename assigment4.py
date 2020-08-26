@@ -6,6 +6,7 @@ obsługa wyjątków, błedna scieżka, brak uprawnien do zapisu, nieistniejący 
     ./assignment_3.py thiskey thisvalue         (sets 'thiskey' and 'thisvalue' in the dict)
 """
 import os
+import pickle
 
 class ConfigKeyError(Exception):                                                       # klasa obsługi wyjątku braku klucza, wywołanie nieistaniejącego klucza np cd['klucz4']
     def __init__(self, this, key):                                                     # this to przekazany obiekt konfliktu typu dict, self to obiekt konfliktu self, key to nieistniejący klucz
@@ -16,18 +17,19 @@ class ConfigKeyError(Exception):                                                
 
 class ConfigDict(dict):
 
-    def __init__(self, filename):
-        self._filename = filename
-        if os.path.isfile(self._filename):                                              # jesli plik istnieje probuj go otworzyć
-            try:
-                open(self._filename).close()
-            except IOError:                                                             # jesli nie ma dostepu do pliku (nieistniejąca sciezka, brak uprawnien) kieruj do obsługi wyjatków
-                raise IOError('arg to config must be valid pathname')
-            with open(self._filename) as fh:
-                for line in fh:
-                    line = line.rstrip()
-                    key, val = line.split('=', 1)
-                    dict.__setitem__(self, key, val)                                    # w klasie nadrzednej dict jest tworzona instancja naszego słownika - przez przeczytanie wszystkich linii pliku i dodanie do słownika
+    config_directory = "C:\\Users\\dudam\\PycharmProjects\\test1\\config"
+
+    def __init__(self, picklename):
+        self._filename = os.path.join(self.config_directory, picklename + '.pickle')
+
+        if not os.path.isfile(self._filename):
+            with open(self._filename, 'wb') as fh:
+                pickle.dump("a", fh)
+        with open(self._filename, 'rb') as fh:
+            pkl = pickle.load(fh)
+            self.update(pkl)
+
+                                                                                            # w klasie nadrzednej dict jest tworzona instancja naszego słownika - przez przeczytanie wszystkich linii pliku i dodanie do słownika
 
     def __getitem__(self, key):                                                         # motoda dp spr czy wywoływany klucz a dict intnieje w razie takiego wywołania cd['klucz4']
         if not key in self:                                                             # spr czy klucz wywoływany istnisje
@@ -35,17 +37,14 @@ class ConfigDict(dict):
         return dict.__getitem__(self, key)                                              # jesli istnieje dokoncz normalnie procedurę __getitem__
 
 
-    def __setitem__(self, key,value):                                                   #funkcja klasy nadrzednej dict wywoływana przez dodanie elementu do słownika: cd['klucz3']='wartosc3'
+    def __setitem__(self, key, value):                                                   #funkcja klasy nadrzednej dict wywoływana przez dodanie elementu do słownika: cd['klucz3']='wartosc3'
         dict.__setitem__(self, key, value)
-        with open(self._filename, 'w+') as fh:
-            for key, val in self.items():                                               # items() iteruj po słowniku pomijając istniejace juz pary key->value
-                fh.write('{0}={1}\n'.format(key, val))
+        with open(self._filename, 'w') as fh:
+            pickle.dump(self, fh)
 
 
 
+cd = ConfigDict('config_file')
+cd['klucz3']='wartosc3'
 
-
-#cd = ConfigDict('\jjjj\config_file.txt')
-#cd['klucz2']='wartosc2'
-
-#print(cd)
+print(cd)

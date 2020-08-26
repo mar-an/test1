@@ -1,0 +1,290 @@
+{
+    "guid": "root________",
+    "title": "",
+    "index": 0,
+    "dateAdded": 1595105870926000,
+    "lastModified": 1595853720707000,
+    "id": 1,
+    "typeCode": 2,
+    "type": "text/x-moz-place-container",
+    "root": "placesRoot",
+    "children": [
+        {
+            "guid": "menu________",
+            "title": "menu",
+            "index": 0,
+            "dateAdded": 1595105870926000,
+            "lastModified": 1595105871285000,
+            "id": 2,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "bookmarksMenuFolder",
+            "children": [
+                {
+                    "guid": "9kolQMnv56dh",
+                    "title": "Mozilla Firefox",
+                    "index": 0,
+                    "dateAdded": 1595105871285000,
+                    "lastModified": 1595105871285000,
+                    "id": 7,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "YvDS-KvQHcSd",
+                            "title": "Pomoc",
+                            "index": 0,
+                            "dateAdded": 1595105871285000,
+                            "lastModified": 1595105871285000,
+                            "id": 8,
+                            "typeCode": 1,
+                            "iconuri": "fake-favicon-uri:https://support.mozilla.org/pl/products/firefox",
+                            "type": "text/x-moz-place",
+                            "uri": "https://support.mozilla.org/pl/products/firefox"
+                        },
+                        {
+                            "guid": "K2t-PtQgrFj-",
+                            "title": "Dostosuj program",
+                            "index": 1,
+                            "dateAdded": 1595105871285000,
+                            "lastModified": 1595105871285000,
+                            "id": 9,
+                            "typeCode": 1,
+                            "iconuri": "fake-favicon-uri:https://support.mozilla.org/pl/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize",
+                            "type": "text/x-moz-place",
+                            "uri": "https://support.mozilla.org/pl/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+                        },
+                        {
+                            "guid": "FEq9afILSTtU",
+                            "title": "Do\u0139\u201a\u00c4\u2026cz do nas",
+                            "index": 2,
+                            "dateAdded": 1595105871285000,
+                            "lastModified": 1595105871285000,
+                            "id": 10,
+                            "typeCode": 1,
+                            "iconuri": "fake-favicon-uri:https://www.mozilla.org/pl/contribute/",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/pl/contribute/"
+                        },
+                        {
+                            "guid": "w5hY92F7fgSj",
+                            "title": "O Mozilli",
+                            "index": 3,
+                            "dateAdded": 1595105871285000,
+                            "lastModified": 1595105871285000,
+                            "id": 11,
+                            "typeCode": 1,
+                            "iconuri": "fake-favicon-uri:https://www.mozilla.org/pl/about/",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.mozilla.org/pl/about/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "guid": "toolbar_____",
+            "title": "toolbar",
+            "index": 1,
+            "dateAdded": 1595105870926000,
+            "lastModified": 1595827391192000,
+            "id": 3,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "toolbarFolder",
+            "children": [
+                {
+                    "guid": "1amWDw8ZkTeG",
+                    "title": "Spark",
+                    "index": 0,
+                    "dateAdded": 1595149347672000,
+                    "lastModified": 1595827391192000,
+                    "id": 14,
+                    "typeCode": 2,
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "guid": "eoLOZxNQ6GDq",
+                            "title": "Apache Spark Tutorial | Spark tutorial | Python Spark - YouTube",
+                            "index": 0,
+                            "dateAdded": 1595149345124000,
+                            "lastModified": 1595149357601000,
+                            "id": 13,
+                            "typeCode": 1,
+                            "iconuri": "https://s.ytimg.com/yts/img/favicon_144-vfliLAfaB.png",
+                            "type": "text/x-moz-place",
+                            "uri": "https://www.youtube.com/watch?v=IQfG0faDrzE"
+                        },
+                        {
+                            "guid": "qijicdsh7fnJ",
+                            "title": "Spark Tutorial",
+                            "index": 1,
+                            "dateAdded": 1595244980633000,
+                            "lastModified": 1595827462870000,
+                            "id": 15,
+                            "typeCode": 1,
+                            "iconuri": "https://intellipaat.com/blog/wp-content/themes/intellipaat-blog-new/images/favicon1.png",
+                            "type": "text/x-moz-place",
+                            "uri": "https://intellipaat.com/blog/tutorial/spark-tutorial/loading-and-saving-your-data/"
+                        },
+                        {
+                            "guid": "OOnL9ufkERo2",
+                            "title": "Free Course Lab",
+                            "index": 2,
+                            "dateAdded": 1595597440582000,
+                            "lastModified": 1595827365625000,
+                            "id": 23,
+                            "typeCode": 1,
+                            "iconuri": "https://i1.wp.com/freecourselab.me/wp-content/uploads/2018/10/fevico.png?fit=192%2C192&ssl=1",
+                            "type": "text/x-moz-place",
+                            "uri": "https://freecourselab.me/page/1/?s=spark"
+                        },
+                        {
+                            "guid": "p-cHw6lYz-Ia",
+                            "title": "srodowisko do szkolenia",
+                            "index": 3,
+                            "dateAdded": 1595749770488000,
+                            "lastModified": 1595827350295000,
+                            "id": 25,
+                            "typeCode": 1,
+                            "iconuri": "https://sundog-education.com/wp-content/uploads/2018/09/cropped-SundogSq-192x192.png",
+                            "type": "text/x-moz-place",
+                            "uri": "https://sundog-education.com/spark-python/"
+                        },
+                        {
+                            "guid": "MmvTjZID3m24",
+                            "title": "Spark Tutorial",
+                            "index": 4,
+                            "dateAdded": 1595827305114000,
+                            "lastModified": 1595827316014000,
+                            "id": 26,
+                            "typeCode": 1,
+                            "iconuri": "https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2016/11/cropped-DataFlair_Logo_Final_220x100_Transp-192x192.png",
+                            "type": "text/x-moz-place",
+                            "uri": "https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/"
+                        }
+                    ]
+                },
+                {
+                    "guid": "6-g1IRWyd96A",
+                    "title": "Wyborcza",
+                    "index": 1,
+                    "dateAdded": 1595274631709000,
+                    "lastModified": 1595274649956000,
+                    "id": 16,
+                    "typeCode": 1,
+                    "iconuri": "https://static.im-g.pl/aliasy/foto/wyborcza/touch-icon-144x144.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://wyborcza.pl/0,0.html"
+                },
+                {
+                    "guid": "f0Kxldf0COmn",
+                    "title": "Python",
+                    "index": 2,
+                    "dateAdded": 1595335252713000,
+                    "lastModified": 1595335259793000,
+                    "id": 17,
+                    "typeCode": 1,
+                    "iconuri": "https://pl.wikibooks.org/static/favicon/wikibooks.ico",
+                    "type": "text/x-moz-place",
+                    "uri": "https://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie"
+                },
+                {
+                    "guid": "ACdSLP17IATD",
+                    "title": "Poczta-korp",
+                    "index": 3,
+                    "dateAdded": 1595416415004000,
+                    "lastModified": 1595416425832000,
+                    "id": 18,
+                    "typeCode": 1,
+                    "iconuri": "https://poczta.corpnet.pl/owa/auth/15.1.1913/themes/resources/favicon.ico",
+                    "type": "text/x-moz-place",
+                    "uri": "https://poczta.corpnet.pl/owa/"
+                },
+                {
+                    "guid": "rxOJ0EWxiSH0",
+                    "title": "Subtitles",
+                    "index": 4,
+                    "dateAdded": 1595428797371000,
+                    "lastModified": 1595567336329000,
+                    "id": 19,
+                    "typeCode": 1,
+                    "iconuri": "https://subtitlestranslator.com/resources/images/icon.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://subtitlestranslator.com/edit.php"
+                },
+                {
+                    "guid": "L2hjVQT1-SKa",
+                    "title": "Lime",
+                    "index": 5,
+                    "dateAdded": 1595483179348000,
+                    "lastModified": 1595483189313000,
+                    "id": 20,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.limetorrents.info/"
+                },
+                {
+                    "guid": "R7E77gl7H9_q",
+                    "title": "centos_repo",
+                    "index": 6,
+                    "dateAdded": 1595597539771000,
+                    "lastModified": 1595597549409000,
+                    "id": 24,
+                    "typeCode": 1,
+                    "iconuri": "https://assets.pkgs.org/img/favicon.ico?v1",
+                    "type": "text/x-moz-place",
+                    "uri": "https://centos.pkgs.org/7/epel-x86_64/python36-py4j-0.10.7-4.el7.noarch.rpm.html"
+                }
+            ]
+        },
+        {
+            "guid": "unfiled_____",
+            "title": "unfiled",
+            "index": 3,
+            "dateAdded": 1595105870926000,
+            "lastModified": 1595853720707000,
+            "id": 5,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "unfiledBookmarksFolder",
+            "children": [
+                {
+                    "guid": "OOXhG29XWICC",
+                    "title": "CentOS 8 VM Images | CentOS 8 VirtualBox Image | CentOS 8 VMware Image",
+                    "index": 0,
+                    "dateAdded": 1595534074378000,
+                    "lastModified": 1595534074378000,
+                    "id": 22,
+                    "typeCode": 1,
+                    "iconuri": "https://www.linuxvmimages.com/img/apple-touch-icon.png",
+                    "type": "text/x-moz-place",
+                    "uri": "https://www.linuxvmimages.com/images/centos-8/"
+                },
+                {
+                    "guid": "sYCaDcohTcZQ",
+                    "title": "HR Portal wyniki-wyszukiwania",
+                    "index": 1,
+                    "dateAdded": 1595853720707000,
+                    "lastModified": 1595853720707000,
+                    "id": 27,
+                    "typeCode": 1,
+                    "type": "text/x-moz-place",
+                    "uri": "https://portal.sp.corpnet.pl/witryny/hr/Strony/wyniki-wyszukiwania.aspx?k=office%202019#k=service%20desk"
+                }
+            ]
+        },
+        {
+            "guid": "mobile______",
+            "title": "mobile",
+            "index": 4,
+            "dateAdded": 1595105870947000,
+            "lastModified": 1595105871264000,
+            "id": 6,
+            "typeCode": 2,
+            "type": "text/x-moz-place-container",
+            "root": "mobileFolder"
+        }
+    ],
+    "newkey": 5.00005
+}
